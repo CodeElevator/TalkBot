@@ -16,7 +16,7 @@ client = Bot(command_prefix="!")
 async def on_message(message):
   if message.content.startwith("Quel est ton prefixe?"):
     await message.channel.send("Mon prefixe est: ! mais vous n'avez pas besoin de l'utiliser.")
-  if message.content.startwith("Quel temps fera-t-il demain?):
+  if message.content.startwith("Quel temps fera-t-il demain?"):
     await message.channel.send("je n'en ai aucune idee")
 
  
